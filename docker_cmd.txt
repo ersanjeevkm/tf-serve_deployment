@@ -1,0 +1,7 @@
+docker run -it --rm \
+    -p 8500:8500 \
+    image-model:v1.0
+
+docker run -it --rm \
+    -p 5555:5555 \
+    gateway:v1.0

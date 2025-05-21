@@ -1,0 +1,9 @@
+services:
+  clothing-model:
+    image: image-model:v1.0
+  gateway:
+    image: gateway:v1.0
+    environment:
+      - TF_SERVING_HOST=clothing-model:8500
+    ports:
+      - "5555:5555"

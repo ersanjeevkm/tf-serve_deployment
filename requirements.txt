@@ -1,0 +1,6 @@
+Flask==3.0.3
+grpcio==1.70.0
+gunicorn==23.0.0
+keras-image-helper==0.0.1
+tensorflow-cpu==2.13.1
+tensorflow-serving-api==2.13.1
