@@ -16,8 +16,8 @@ spec:
           image: gateway:v1.0
           resources:
             limits:
-              memory: "128Mi"
-              cpu: "256m"
+              memory: "256Mi"
+              cpu: "0.5"
           ports:
             - containerPort: 5555
           env:
